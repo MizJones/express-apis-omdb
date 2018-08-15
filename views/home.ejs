@@ -1,0 +1,14 @@
+<h1>home</h1>
+
+
+<div class="container">
+<h2>check out some movies I like</h2>
+
+<% movies.forEach(function(m) {%>
+	<div>
+	<h3><%= m.Title %> (<%= m.Year %>)</h3>
+	<img src="<%= m.Poster %>">
+	</div>
+
+<%});%>
+</div>

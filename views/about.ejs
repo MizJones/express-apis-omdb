@@ -1,0 +1,12 @@
+<div class="container">
+	<h1>About <%= myname %></h1>
+	<h2>Stuff here now</h2>
+	<ul class="collection">
+		<% myfoods.forEach(function(f){ %>
+		<li class="collection-items">
+			<%= f %>
+		</li>
+
+		<% }); %>
+	</ul>
+</div>
